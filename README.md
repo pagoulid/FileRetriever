@@ -19,3 +19,4 @@ Note: First dir is folder,second dir is file inside a subfolder
 SOS:
 For production execute npm start
 For development execute  npm run devtest
+Must download and decompress node_module
