@@ -1,22 +1,32 @@
 # FileRetriever
-Reads the content of a given file inside specific directory
+    Returns to webpage  the content of a given file inside specific directory
 
-find and send files to webpage through curr or subdir's
-check if file exists or else returne 404 with null
-can fix it to check if dir we give is valid//
-Added devtest script in package.json : Type in console npm run devtest(runs program through nodemon env ,if app crashes type rs in console)
-Can i automate restart when app crashes??//FIXED
-FIXED
+    Check if file exists or else return 404 with null
+    
 
-Test examples:
-localhost:3000/test
-localhost:3000/dir/a/dir
-localhost:3000/dir/a/b/c/d
-Note: First dir is folder,second dir is file inside a subfolder
+# Examples
+    Test examples:
+    
+        - localhost:3000/test
+        
+        - localhost:3000/dir/a/dir
+        
+        - localhost:3000/dir/a/b/c/d
+        
+        - localhost:3000/"Your_Directory_name"/"Your_File_name"
+        
+              Note: Those folders must exist on your local directory
+              Note: On second example , first dir is folder , second dir is file inside a subfolder
+              
+# Bugs
+
+    Check if directory we give is valid (exists)
 
 
 
-SOS:
-For production execute npm start
-For development execute  npm run devtest
-Must download and decompress node_module
+# Other
+
+    Implementation for production/development:
+        - For production mode execute npm start
+        - For development mode execute  npm run devtest
+        - Must download and decompress node_module
